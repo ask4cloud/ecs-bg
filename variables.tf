@@ -115,6 +115,11 @@ variable "enable_green_env" {
   type  = bool
 }
 
+variable "enable_blue_env" {
+  type  = bool
+  default = true
+}
+
 
 # ---------------------------------------------------------------------------------------------------------------------
 # REQUIRED MODULE PARAMETERS
